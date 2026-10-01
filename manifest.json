@@ -549,6 +549,98 @@
       ],
       "ast": [
         "aggregate/ast/02914848d94d692c288e4eaac666bedcd65bcd80/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/02914848d94d692c288e4eaac666bedcd65bcd80.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "@biomejs/biome",
+          "ecosystem": "NPM",
+          "version": "2.4.12",
+          "githubOrg": "biomejs",
+          "githubRepo": "biome",
+          "githubUrl": "git+https://github.com/biomejs/biome.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@changesets/changelog-github",
+          "ecosystem": "NPM",
+          "version": "0.6.0",
+          "githubOrg": "changesets",
+          "githubRepo": "changesets",
+          "githubUrl": "git+https://github.com/changesets/changesets.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@changesets/cli",
+          "ecosystem": "NPM",
+          "version": "2.31.0",
+          "githubOrg": "changesets",
+          "githubRepo": "changesets",
+          "githubUrl": "git+https://github.com/changesets/changesets.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/node",
+          "ecosystem": "NPM",
+          "version": "22.0.0",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "lefthook",
+          "ecosystem": "NPM",
+          "version": "2.1.0",
+          "githubOrg": "evilmartians",
+          "githubRepo": "lefthook",
+          "githubCommit": "c43361a52db7af1d75f5e877cb0e4bd803d28e77",
+          "githubTag": "v2.1.0",
+          "githubUrl": "git+https://github.com/evilmartians/lefthook.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "tsx",
+          "ecosystem": "NPM",
+          "version": "4.21.0",
+          "githubOrg": "privatenumber",
+          "githubRepo": "tsx",
+          "githubCommit": "f6284cd50575ce6e8d110f63266d66cb9cde3b88",
+          "githubTag": "v4.21.0",
+          "githubUrl": "git+https://github.com/privatenumber/tsx.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "typescript",
+          "ecosystem": "NPM",
+          "version": "5.7.0",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "githubUrl": "git+https://github.com/microsoft/TypeScript.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "vitest",
+          "ecosystem": "NPM",
+          "version": "3.0.0",
+          "githubOrg": "vitest-dev",
+          "githubRepo": "vitest",
+          "githubCommit": "01600e04c2252abee78fc8a695197ce62f2846d4",
+          "githubTag": "v3.0.0",
+          "githubUrl": "git+https://github.com/vitest-dev/vitest.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "zod",
+          "ecosystem": "NPM",
+          "version": "4.3.6",
+          "githubOrg": "colinhacks",
+          "githubRepo": "zod",
+          "githubCommit": "ca3c8629c0c2715571f70b44c2433cad3db7fe4e",
+          "githubTag": "v4.3.6",
+          "githubUrl": "git+https://github.com/colinhacks/zod.git",
+          "source": "build_file:package.json"
+        }
       ]
     }
   ],

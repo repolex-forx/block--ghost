@@ -48,10 +48,62 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/02914848d94d692c288e4eaac666bedcd65bcd80/chunk-001.nq.gz",
       "repolex:graphFileSize": 14781973
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/02914848d94d692c288e4eaac666bedcd65bcd80.nq.gz",
+      "repolex:graphFileSize": 1861761
     }
   ],
-  "repolex:parseStatus": "metadata_complete",
-  "repolex:parsedAt": "2026-10-01T08:28:23.167656+00:00",
+  "repolex:parseStatus": "enrich_complete",
+  "repolex:parsedAt": "2026-10-01T08:06:17.657315+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/biomejs/biome",
+      "repolex:packageName": "@biomejs/biome"
+    },
+    {
+      "@id": "https://repolex.ai/r/changesets/changesets",
+      "repolex:packageName": "@changesets/changelog-github"
+    },
+    {
+      "@id": "https://repolex.ai/r/changesets/changesets",
+      "repolex:packageName": "@changesets/cli"
+    },
+    {
+      "@id": "https://repolex.ai/r/DefinitelyTyped/DefinitelyTyped",
+      "repolex:packageName": "@types/node"
+    },
+    {
+      "@id": "https://repolex.ai/r/evilmartians/lefthook",
+      "repolex:packageName": "lefthook",
+      "git:hexsha": "c43361a52db7af1d75f5e877cb0e4bd803d28e77",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/privatenumber/tsx",
+      "repolex:packageName": "tsx",
+      "git:hexsha": "f6284cd50575ce6e8d110f63266d66cb9cde3b88",
+      "git:tagName": "v4.21.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "typescript"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitest-dev/vitest",
+      "repolex:packageName": "vitest",
+      "git:hexsha": "01600e04c2252abee78fc8a695197ce62f2846d4",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/colinhacks/zod",
+      "repolex:packageName": "zod",
+      "git:hexsha": "ca3c8629c0c2715571f70b44c2433cad3db7fe4e",
+      "git:tagName": "v4.3.6"
+    }
+  ]
 }

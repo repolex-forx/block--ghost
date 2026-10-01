@@ -1,0 +1,54 @@
+[2026-10-01T08:11:22Z] === ENRICH ITERATION 1 START | repo=block/ghost sha=02914848 ===
+[2026-10-01T08:11:22Z] [iter=1] PHASE START: enrich repo=block/ghost sha=02914848 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/02914848-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/02914848d94d692c288e4eaac666bedcd65bcd80.nq.gz
+[2026-10-01T08:11:37Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=82 MB
+[2026-10-01T08:11:43Z] [iter=1] AST store loaded triples=1032894 load_secs=6 mem_mb=924 MB
+[2026-10-01T08:11:43Z] [iter=1] Step 2: Finding LSP targets mem_mb=924 MB
+[2026-10-01T08:11:44Z] [iter=1] LSP targets found call_sites=7323 imports=944 extends=4 implements=0 secs=1
+[2026-10-01T08:11:44Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=924 MB
+[2026-10-01T08:11:50Z] [iter=1] Position index built positions=71089 nodes_with_types=82305 secs=6 mem_mb=924 MB
+[2026-10-01T08:11:50Z] [iter=1] Step 3: Starting LSP resolution mem_mb=924 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T08:11:50Z] [iter=1] Resolving target type target_type=call_site count=7323
+[2026-10-01T08:13:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=1 resolved=14 errors=234 current=packages/ghost/test/review-explicit-packet.test.ts
+[2026-10-01T08:14:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.1 files_done=2 resolved=35 errors=355 current=packages/ghost/src/commands/command-discovery.ts
+[2026-10-01T08:15:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.0 files_done=4 resolved=128 errors=476 current=packages/steering-control/test/sameness.test.ts
+[2026-10-01T08:16:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=7 resolved=217 errors=630 current=packages/ghost/test/ghost-core/check-md.test.ts
+[2026-10-01T08:17:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=9 resolved=233 errors=777 current=packages/vessel-react/src/components/ai-elements/edge.tsx
+[2026-10-01T08:18:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=11 resolved=249 errors=876 current=packages/ghost/src/embed/inspect.ts
+[2026-10-01T08:20:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=13 resolved=274 errors=1158 current=packages/ghost/test/skill-check.test.ts
+[2026-10-01T08:21:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=14 resolved=275 errors=1297 current=packages/ghost/test/skill-bundle.test.ts
+[2026-10-01T08:22:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=17 resolved=291 errors=1420 current=packages/ghost/src/commands/stats-command.ts
+[2026-10-01T08:22:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.6 files_done=19 resolved=377 errors=1529 current=packages/ghost/test/ghost-core/catalog-assemble.test.ts
+[2026-10-01T08:24:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.7 files_done=23 resolved=436 errors=1680 current=packages/ghost/test/load-diagnostics.test.ts
+[2026-10-01T08:25:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=24 resolved=446 errors=1852 current=packages/vessel-react/src/hooks/use-text-animator.tsx
+[2026-10-01T08:26:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.7 files_done=26 resolved=464 errors=1963 current=apps/docs/src/content.config.ts
+[2026-10-01T08:26:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.3 files_done=33 resolved=568 errors=2034 current=packages/vessel-react/src/components/ai-elements/attachments.tsx
+[2026-10-01T08:27:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.5 files_done=38 resolved=664 errors=2194 current=packages/ghost/src/commands/checks-command.ts
+[2026-10-01T08:28:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.3 files_done=42 resolved=720 errors=2308 current=packages/ghost/src/ghost-core/check/reference.ts
+[2026-10-01T08:29:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=47 resolved=753 errors=2386 current=packages/vessel-react/src/components/ai-elements/jsx-preview.tsx
+[2026-10-01T08:29:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.5 files_done=53 resolved=809 errors=2478 current=packages/ghost/src/cli.ts
+[2026-10-01T08:30:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.0 files_done=58 resolved=851 errors=2544 current=packages/vessel-react/src/components/ai-elements/file-tree.tsx
+[2026-10-01T08:31:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=62 resolved=900 errors=2644 current=apps/docs/src/components/docs/gather-demo.tsx
+[2026-10-01T08:31:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.5 files_done=67 resolved=916 errors=2742 current=packages/ghost/src/ghost-core/check/lint.ts
+[2026-10-01T08:32:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.3 files_done=73 resolved=978 errors=2845 current=packages/ghost/src/commands/review-command.ts
+[2026-10-01T08:33:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.8 files_done=77 resolved=1023 errors=2913 current=packages/vessel-react/src/components/ai-elements/conversation.tsx
+[2026-10-01T08:33:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.3 files_done=82 resolved=1086 errors=2985 current=packages/vessel-react/src/components/ai-elements/message.tsx
+[2026-10-01T08:34:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.9 files_done=96 resolved=1153 errors=3063 current=packages/vessel-react/src/components/ai-elements/shimmer.tsx
+[2026-10-01T08:34:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=106 resolved=1167 errors=3145 current=packages/vessel-react/src/components/ai-elements/environment-variables.tsx
+[2026-10-01T08:35:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.3 files_done=115 resolved=1197 errors=3238 current=packages/vessel-react/src/components/ai-elements/plan.tsx
+[2026-10-01T08:36:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.8 files_done=138 resolved=1274 errors=3300 current=packages/ghost/test/fixtures/registry/src/components/ui/button.tsx
+[2026-10-01T08:36:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.6 files_done=157 resolved=1323 errors=3396 current=scripts/check-release-workflows.mjs
+[2026-10-01T08:37:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.4 files_done=160 resolved=1372 errors=3512 current=packages/steering-control/lib/arms.mjs
+[2026-10-01T08:38:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.9 files_done=163 resolved=1415 errors=3583 current=scripts/link-package-bin.mjs
+[2026-10-01T08:38:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.5 files_done=170 resolved=1474 errors=3655 current=scripts/check-packed-package.mjs
+[2026-10-01T08:39:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.2 files_done=172 resolved=1539 errors=3753 current=packages/context-control/lib/tape.mjs
+[2026-10-01T08:40:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.8 files_done=176 resolved=1570 errors=3834 current=packages/vessel-react/scripts/build-base-vars.mjs
+[2026-10-01T08:40:25Z] [iter=1] Target type resolved target_type=call_site resolved=1602 errors=3871 secs=1715 mem_mb=924 MB
+[2026-10-01T08:40:25Z] [iter=1] Resolving target type target_type=import_statement count=944
+[2026-10-01T08:40:38Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=29.3 files_done=56 resolved=151 errors=0 current=packages/vessel-react/src/components/ai-elements/code-block.tsx
+[2026-10-01T08:41:08Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=29.8 files_done=213 resolved=402 errors=0 current=scripts/check-packed-package.mjs
+[2026-10-01T08:41:09Z] [iter=1] Target type resolved target_type=import_statement resolved=403 errors=0 secs=43 mem_mb=924 MB
+[2026-10-01T08:41:09Z] [iter=1] Resolving target type target_type=extends_clause count=4
+[2026-10-01T08:41:11Z] [iter=1] Target type resolved target_type=extends_clause resolved=4 errors=0 secs=2 mem_mb=924 MB
+[2026-10-01T08:41:53Z] [iter=1] Step 5: Writing final enrichment file triples=82680
+[2026-10-01T08:41:54Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/02914848d94d692c288e4eaac666bedcd65bcd80.nq.gz size_kb=1818
+[2026-10-01T08:41:54Z] [iter=1] PHASE END: enrich elapsed_s=1832 elapsed_min=30.5 total_triples=82680
