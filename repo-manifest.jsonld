@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/ghost/commit/02914848d94d692c288e4eaac666bedcd65bcd80",
       "git:hexsha": "02914848d94d692c288e4eaac666bedcd65bcd80",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "design-intelligence-ghost@0.35.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "design-intelligence-ghost@0.35.0",
+      "repolex:parsedAt": "2026-10-01T08:46:17.755485+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/ghost/commit/f20a7e82783219c31feb41b7f663791f33b6a5e4",
