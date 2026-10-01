@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "ghost",
+  "versions": [
+    {
+      "commit": "02914848d94d692c288e4eaac666bedcd65bcd80",
+      "tag": "main",
+      "parsed_at": "2026-10-01T08:46:17.756142+00:00"
+    }
+  ]
+}
